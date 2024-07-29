@@ -1,0 +1,164 @@
+doctype html 
+html 
+ head 
+  meta(charset="UTF-8")
+  meta(
+    http-equiv="X-UA-Compatible",
+    content="IE=edge"
+    )
+  meta(
+    name="viewport",
+    content="width=device-width, initial-scale=1.0"
+  )
+  link(
+    rel="stylesheet",
+    href="style.css")
+  link(
+    rel="stylesheet",
+    href="media.css")  
+  title Dashboard  
+ body
+ .wrapper 
+  nav.sidebar
+   header.header 
+    .logo 
+     .logo-img  
+      img(src="image/logo.svg", alt="logo")
+     .logo-text 
+      | Dashboard 
+      span v.01
+    ul.menu-bar      
+      li.nav-link 
+       a(href="#")
+        img(src="image/key-square.svg", alt="key")
+        span Dashboard
+      li.nav-link.link-with-arrow 
+       a(href="#")
+        img(src="image/3d-square.svg", alt="3d-aquare")
+        span Product
+      li.nav-link.link-with-arrow.nav-link-active 
+       a(href="#")
+        img(src="image/user-square.svg", alt="square")
+        span Customers
+      li.nav-link.link-with-arrow 
+       a(href="#")
+        img(src="image/wallet-money.svg", alt="wallet")
+        span Income  
+      li.nav-link.link-with-arrow 
+       a(href="#")
+        img(src="image/discount-shape.svg", alt="shape")
+        span Promote
+      li.nav-link.link-with-arrow 
+       a(href="#")
+        img(src="image/message-question.svg", alt="help")
+        span Help  
+    .profile 
+     img(src="image/profile_img.svg", alt="profile-img")
+     .profile-info
+      .profile-name Evano
+      .profile-profession Project Manager
+
+    
+  main.main 
+   .title Hello Evano 👋🏼,
+   .main-content 
+    .top-content 
+     .content-titile All Customers
+      .content-subtitle Active Members
+     .search 
+      input.search-input(type="search", name="Search" value="Search" )
+    .table-content 
+     .table-title  
+      .customer-name Customer Name 
+      .company Company
+      .phone-number Phone Number
+      .email Email
+      .country Country
+      .status Status
+     .table-info  
+      .customer-name Jane Cooper
+      .company Microsoft
+      .phone-number (225) 555-0118
+      .email jane@microsoft.com
+      .country United States
+      .status 
+       input.status-active(type="button", value="Active")
+     .table-info  
+      .customer-name Floyd Miles
+      .company Yahoo
+      .phone-number (205) 555-0100
+      .email floyd@yahoo.com
+      .country Kiribati
+      .status 
+       input.status-inactive(type="button", value="Inactive")   
+     .table-info  
+      .customer-name Ronald Richards
+      .company Adobe
+      .phone-number (302) 555-0107
+      .email ronald@adobe.com
+      .country Israel
+      .status 
+       input.status-inactive(type="button", value="Inactive")  
+     .table-info  
+      .customer-name Marvin McKinney
+      .company Tesla
+      .phone-number (252) 555-0126
+      .email marvin@tesla.com
+      .country Iran
+      .status 
+       input.status-active(type="button", value="Active")   
+     .table-info  
+      .customer-name Jerome Bell
+      .company Google
+      .phone-number (629) 555-0129
+      .email jerome@google.com
+      .country Réunion
+      .status 
+       input.status-active(type="button", value="Active")   
+     .table-info  
+      .customer-name Kathryn Murphy
+      .company Microsoft
+      .phone-number (406) 555-0120
+      .email kathryn@microsoft.com
+      .country Curaçao
+      .status 
+       input.status-active(type="button", value="Active")  
+     .table-info  
+      .customer-name Jacob Jones
+      .company Yahoo
+      .phone-number (208) 555-0112
+      .email jacob@yahoo.com
+      .country Brazil
+      .status 
+       input.status-active(type="button", value="Active")  
+     .table-info  
+      .customer-name Kristin Watson
+      .company Facebook
+      .phone-number (704) 555-0127
+      .email kristin@facebook.com
+      .country Åland Islands
+      .status 
+       input.status-inactive(type="button", value="Inactive")
+    .bottom-content
+     .content-bottom-title Showing data 1 to 8 of  256K entries
+     nav.pagination 
+      ul.pagination_list 
+       li.pagination_item.pagination_item-prev
+        a.pagination_link(href="#") 
+       li.pagination_item
+        a.pagination_link(href="#") 1
+       li.pagination_item
+        a.pagination_link(href="#") 2
+       li.pagination_item
+        a.pagination_link(href="#") 3
+       li.pagination_item
+        a.pagination_link(href="#") 4
+       li.pagination_item.pagination_item-ellipsis
+        span.pagination_ellipsis ... 
+       li.pagination_item
+        a.pagination_link(href="#") 40 
+       li.pagination_item.pagination_item-next
+        a.pagination_link(href="#") 
+
+
+  script(src="main.js") 
